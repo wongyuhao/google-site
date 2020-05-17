@@ -33,17 +33,15 @@ body{
     
 }
 
-.top-item{
+.link{
     font-size:13px;
     padding-right:15px;
     text-decoration: none;
-    color:rgba(0,0,0,0.87);
+    color:rgba(0,0,0,0.87); line-height: 35px;
     
 }
-.text-link{
-    line-height: 35px;
-}
-.top-item:hover{
+
+.link:hover{
     text-decoration: underline;
 }
 
@@ -186,7 +184,60 @@ body{
 
 
 .footer{
-    align-self: left;
-    background-color: grey;
+   display:flex;
+   flex-direction: column;
+   width:100vw;
 }
+
+.footer-row{
+    background-color: #F2F2F2;
+    color:rgba(0,0,0,.54);
+    padding-left: 27px;
+    line-height:40px;
+   
+}
+
+hr{
+    width:100%;
+    height:1px;
+    padding:0px;
+    margin:0px;
+    border-style:none;
+    background-color: rgba(0,0,0,0.075);
+}
+#bottom-nav{
+    display:flex;
+    flex-direction: row;
+   
+}
+
+.bottom-links{
+    
+    margin:0px;
+    padding:0px;
+    display:flex;
+    list-style-type:none;
+    justify-content: left;
+    overflow:hidden;
+    width:50vw;
+}
+.bot-link{
+    color:rgba(0,0,0,.54);
+    font-size: 14px;
+    padding-right:30px;
+}
+.left-links{
+    justify-content: flex-start;   
+    padding-right:15px;
+}
+    
+
+.right-links{
+    margin-right:0px;
+    padding-right:0px;
+    width: 46.5vw;
+    justify-content:flex-end;
+    
+}
+
 
