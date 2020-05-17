@@ -65,12 +65,126 @@ body{
 
 .content{
     display:flex;
+    
     flex:1 0 auto;   
     justify-items: center;
     align-self: center;
     
     background-color: white;
 }
+
+#logo-searchbar{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+   justify-self: center;
+}
+
+#google-logo{
+    height:auto;
+    width:auto;
+    position: absolute;
+    align-self:center;
+    max-width: 400px;
+    max-height:220px;
+    
+}
+#search-background{
+    display:flex;
+    position: relative;
+    height:50px;
+    width:45vw ;
+    margin-top:120px;
+    border: 1px rgba(0,0,0,0.2) solid;
+    border-radius: 25px ;
+    
+    background-color: transparent;
+
+}
+
+
+
+
+#search-bar{
+    position: relative;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-content:center ;
+    margin:-40px; 
+
+
+    height:45px;
+    width:46vw ;
+    margin-top:120px;
+    border: 1px rgba(0,0,0,0.2) solid;
+    border-radius: 25px ;
+    
+    
+    background-color: transparent;
+}
+
+
+#search-icon{
+    opacity: 35%;
+    max-width: 25px;
+    max-height:25px;
+    margin:0px;
+    margin-top:12px;
+    margin-left:10px;
+    padding:0px;
+    
+   
+}
+#search-input{
+    
+    height:auto;
+    width:42vw;
+    margin-top:-4px;
+    margin-left:5px;
+   
+    
+    background-color:transparent;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+    appearance: none;
+    border:none;
+}
+
+#search-buttons{
+    display:flex;
+    flex-direction: row;
+    
+   justify-content: center;
+    margin-top:10vh;
+    
+}
+
+.button{
+    text-align: center;
+    margin: 11px 4px;
+    padding:0px 16px;
+    height:36px;
+    width:127px;
+    border-style: none;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    color:#5F6368;
+    font-size:14px;
+    
+    font-family: Arial, sans-serif;
+}
+
+.button:hover{
+    
+    color:rgba(0,0,0,0.7);
+    border: 1px rgba(0,0,0,0.2) solid;
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    text-transform:none;
+    text-decoration: none;
+}
+
+
 .footer{
     align-self: left;
     background-color: grey;
